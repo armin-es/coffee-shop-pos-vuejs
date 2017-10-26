@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,700');
+
+body {
+	background-color: #CC0060;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.07em;
+}
+
+h1.title {
+	letter-spacing: 0.3em;
+	width: 80%;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	font-size: 4vw;
+}
+
+#cart span {
+	margin-left: 1.1em;
+}
+
+.button-container {
+	width: 20%;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.button-container>button {
+	width: 7em;
+	text-align: left;
+	background-color: #990048;
+	color: #fff;
+	float: right;
+}
+
+.button-container>button:hover {
+	background-color: #E374A8;
+	color: #000;
+}
+
+.modal-body p {
+	font-weight: bold;
+	text-align: right;
+	margin-top: 10%;
+	font-size: 1.8rem;
+}
+
+.modal-body a {
+	color: #cc0060;
+}
+
+.drink-list-container {
+	margin-top: 40px;
+}
+
+.caption p {
+	margin: 1.5em 0 0.2em;
+}
+
+span.drink-name {
+	font-weight: 500;
+	margin-left: 0 !important;
+	font-size: 2rem;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+p.drink-price {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.thumbnail ul {
+	list-style-type: none;
+}
